@@ -9,7 +9,7 @@ import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content'
 
 export const Members = () => {
-    const apiUrl = 'http://localhost:8080/members/';
+    const apiUrl = 'http://54.164.31.87:8080/members/';
 
     const [members, setMembers] = useState([]);
     const [id, setId] = useState('');
@@ -105,7 +105,7 @@ export const Members = () => {
                                     <button
                                         type="button"
                                         class="btn btn-danger btn-sm ms-2"
-                                        onClick={() => handleShow("eliminar")}
+                                        /*onClick={() => handleShow("eliminar")}*/
                                     >
                                         Eliminar
                                     </button>

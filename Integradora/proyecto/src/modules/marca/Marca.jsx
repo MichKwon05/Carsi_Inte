@@ -5,7 +5,7 @@ import { show_alert } from '../../functions';
 import axios from 'axios';
 
 export const Marca = () => {
-  const apiUrl = 'http://localhost:8080/marcas/';
+  const apiUrl = 'http://54.164.31.87:8080/marcas/';
 
     const [marcas, setMarcas] = useState([]);
     const [id, setId] = useState('');

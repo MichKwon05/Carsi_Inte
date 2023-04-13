@@ -8,7 +8,7 @@ import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content'
 
 export const Album = () => {
-  const apiUrl = 'http://localhost:8080/album/';
+  const apiUrl = 'http://54.164.31.87:8080/album/';
 
     const [albums, setAlbum] = useState([]);
     const [id, setId] = useState('');
